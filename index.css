@@ -1,0 +1,76 @@
+body {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+@font-face {
+    font-family: 'Brilliant';
+    src: url(font/Brilliant_-_Personal_Use.ttf) format('truetype');
+}
+
+
+.input {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #000;
+    border-radius: 15px;
+    font-size: 40px;
+    padding-left: 21px;
+    font-weight: 100;
+    margin-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #0e72fb;
+
+}
+
+
+.input.disabled {
+    border: 2px solid gray;
+    color: gray;
+    
+
+}
+.input:disabled{
+    background-color: red;
+}
+
+.input.error {
+    border: 2px solid rgb(255, 0, 0);
+    color: rgb(255, 5, 5);
+    background-color: rgba(255, 0, 0, 0.319);
+}
+
+.input.valide {
+    border: 2px solid rgb(9, 151, 99);
+    color: rgb(9, 151, 99);
+    background-color: rgba(11, 141, 93, 0.478);
+}
+
+.checkButton {
+    padding: 15px 65px;
+    background-color: #0e72fb;
+    color: white;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: Arial;
+    border: 2px solid #0e72fb;
+    cursor: pointer;
+}
+.checkButton:hover{
+    background-color: white;
+    border: 2px solid #0e72fb;
+    color: #0e72fb;
+    transition: 0.5s;
+}
+.checkButton.hidden{
+    display: none;
+}
+#loading{
+    width: 100px;
+    height: 100px;
+}
+#loading.show{
+    display: block !important;
+}

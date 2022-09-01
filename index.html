@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="div" style="display: relative">
+      <div
+        style="display: flex; background: #fff; height: 100vh; min-width: 100%"
+      >
+        <div
+          style="
+            background: transparent;
+            text-align: center;
+            background-color: transparent;
+            width: 50%;
+          "
+        >
+          <div
+            style="
+              position: absolute;
+              top: 50%;
+              left: 20%;
+              transform: translate(-50%, -50%);
+              height: 500px;
+              min-width: 900px;
+              padding: 10px;
+            "
+          >
+            <img src="img/mail.gif" style="width: 105px" /><br />
+            <span style="font-size: 65px; font-family: 'Brilliant'"
+              >Confirmer votre mail </span
+            ><br />
+            <span
+              style="
+                padding: 5px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+              "
+              >Entrer le code que vous avez reçu sur ce mail:
+              <span style="color: #0e72fb; cursor: pointer"
+                ><u>alby2000kps@gmail.com</u>
+              </span></span
+            ><br /><br />
+            <div class="message"></div>
+        
+            <div class="inputs">
+              <input type="text" class="input" id="one" maxlength="1" />
+              <input type="text" class="input" id="two" maxlength="1" />
+              <input type="text" class="input" id="three" maxlength="1" />
+              <input type="text" class="input" id="four" maxlength="1" />
+            </div>
+            <div class="validation" style="margin-top: 25px">
+              <img src="img/loadgif.gif" class="" id="loading"/><br>
+              <button id="checkButton" class="checkButton">Vérifier</button><br>
+            </div>
+          </div>
+        </div>
+
+        <div style="width: 100%">
+          <img
+            src="img/logo1.svg"
+            alt=""
+            style="
+              margin-left: 90px;
+              z-index: 20;
+              position: absolute;
+              right: 8% !important;
+              width: 55%;
+              top: 10%;
+            "
+          />
+          <div
+            style="
+              clip-path: circle(100% at 100% 40%);
+              background: #9adce9;
+              width: 67%;
+              height: 100vh;
+              position: absolute;
+              z-index: 18;
+            "
+          ></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
+<!--  -->
